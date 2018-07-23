@@ -1,0 +1,54 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      'a8301d306e0156cb7a21ae64a33e490a' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"uLogin","description":"uLogin snippet.","editor_type":0,"category":0,"cache_type":0,"snippet":"$ulogin = $modx->getService(\'ulogin\',\'uLogin\',$modx->getOption(\'ulogin.core_path\',null,$modx->getOption(\'core_path\').\'components\\/ulogin\\/\').\'model\\/ulogin\\/\',$scriptProperties);\\nif (!($ulogin instanceof  uLogin)) return \'\';\\n\\nreturn $ulogin->initialize($scriptProperties);","locked":0,"properties":"a:13:{s:5:\\"ul_id\\";a:7:{s:4:\\"name\\";s:5:\\"ul_id\\";s:4:\\"desc\\";s:19:\\"ulogin_prop.id_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:6:\\"uLogin\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:7:\\"display\\";a:7:{s:4:\\"name\\";s:7:\\"display\\";s:4:\\"desc\\";s:22:\\"ulogin_prop.displ_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:5:\\"small\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:7:\\"win_tip\\";a:7:{s:4:\\"name\\";s:7:\\"win_tip\\";s:4:\\"desc\\";s:23:\\"ulogin_prop.wintip_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:6:\\"fields\\";a:7:{s:4:\\"name\\";s:6:\\"fields\\";s:4:\\"desc\\";s:23:\\"ulogin_prop.fields_desc\\";s:4:\\"type\\";s:8:\\"texfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:55:\\"first_name,last_name,photo,email,bdate,sex,country,city\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:9:\\"providers\\";a:7:{s:4:\\"name\\";s:9:\\"providers\\";s:4:\\"desc\\";s:21:\\"ulogin_prop.prov_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:39:\\"vkontakte,odnoklassniki,mailru,facebook\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:6:\\"hidden\\";a:7:{s:4:\\"name\\";s:6:\\"hidden\\";s:4:\\"desc\\";s:23:\\"ulogin_prop.hidden_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:40:\\"twitter,google,yandex,livejournal,openid\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"redirect\\";a:7:{s:4:\\"name\\";s:8:\\"redirect\\";s:4:\\"desc\\";s:25:\\"ulogin_prop.redirect_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:14:\\"[[++site_url]]\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"callback\\";a:7:{s:4:\\"name\\";s:8:\\"callback\\";s:4:\\"desc\\";s:21:\\"ulogin_prop.call_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:9:\\"usr_hello\\";a:7:{s:4:\\"name\\";s:9:\\"usr_hello\\";s:4:\\"desc\\";s:25:\\"ulogin_prop.usrhello_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:5:\\"Hello\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"usr_profile\\";a:7:{s:4:\\"name\\";s:11:\\"usr_profile\\";s:4:\\"desc\\";s:27:\\"ulogin_prop.usrprofile_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:1:\\"#\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:10:\\"sigout_msg\\";a:7:{s:4:\\"name\\";s:10:\\"sigout_msg\\";s:4:\\"desc\\";s:27:\\"ulogin_prop.signoutmsg_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:8:\\"Sign out\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:10:\\"sigout_url\\";a:7:{s:4:\\"name\\";s:10:\\"sigout_url\\";s:4:\\"desc\\";s:27:\\"ulogin_prop.signouturl_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"usrpanel\\";a:7:{s:4:\\"name\\";s:8:\\"usrpanel\\";s:4:\\"desc\\";s:25:\\"ulogin_prop.usrpanel_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:9:\\"userpanel\\";s:7:\\"lexicon\\";s:17:\\"ulogin:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":0,"static_file":"","content":"$ulogin = $modx->getService(\'ulogin\',\'uLogin\',$modx->getOption(\'ulogin.core_path\',null,$modx->getOption(\'core_path\').\'components\\/ulogin\\/\').\'model\\/ulogin\\/\',$scriptProperties);\\nif (!($ulogin instanceof  uLogin)) return \'\';\\n\\nreturn $ulogin->initialize($scriptProperties);"}',
+        'guid' => '5f22cb052c5e3eb14a455dd93cac1ae4',
+        'native_key' => 1,
+        'signature' => '55f88b927b07309c25b9fb00a0bbdfcb',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'ulogin',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"ulogin-1.7-beta1\\/modCategory\\/5c00b5d275f4a10a617e9dfdeb959fde\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"ulogin"}',
+    ),
+    1 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"ulogin-1.7-beta1\\/modCategory\\/5c00b5d275f4a10a617e9dfdeb959fde.resolve.table.resolver","type":"php","name":"resolve.table"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9218ffe0e8bddb105fb92ec8e85154fb',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '5c00b5d275f4a10a617e9dfdeb959fde',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"uLogin"}',
+);

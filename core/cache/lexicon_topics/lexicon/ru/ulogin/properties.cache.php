@@ -1,0 +1,15 @@
+<?php  return array (
+  'ulogin_prop.id_desc' => 'Идентификатор html элемента, использующийся для виджета',
+  'ulogin_prop.displ_desc' => 'Вариант отображения виджета (small/panel/window)',
+  'ulogin_prop.wintip_desc' => 'Всплывающая подсказка над виджетом в виде окна',
+  'ulogin_prop.fields_desc' => 'Список запрашиваемых полей из профиля пользователя',
+  'ulogin_prop.prov_desc' => 'Список отображаемых провайдеров на панели виджета',
+  'ulogin_prop.hidden_desc' => 'Список провайдеров в выпадающем меню виджета',
+  'ulogin_prop.redirect_desc' => 'Ссылка для получения токена',
+  'ulogin_prop.call_desc' => 'Java script функция для получения токена без редиректа',
+  'ulogin_prop.usrhello_desc' => 'Приветствие пользователя в шаблоне userpanel',
+  'ulogin_prop.usrprofile_desc' => 'Ссылка на профиль пользователя',
+  'ulogin_prop.signoutmsg_desc' => 'Название ссылки на выход из профиля в шаблоне userpanel',
+  'ulogin_prop.signouturl_desc' => 'Cсылка на выход из профиля в шаблоне userpanel',
+  'ulogin_prop.usrpanel_desc' => 'Название шаблона пользовательской панели(по умолчанию userpanel). Файл в формате "*.chunk.tpl"',
+);
